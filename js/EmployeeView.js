@@ -39,6 +39,7 @@ var EmployeeView = function(employee) {
         phoneNumbers[1] = new ContactField('mobile', app.currentEmployee.cellPhone, true); // preferred number
         contact.phoneNumbers = phoneNumbers;
         contact.save();
+		app.showAlert("Contact created", "Error")
         return false;
     };
 
