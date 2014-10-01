@@ -7,14 +7,16 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Employee Directory</name>
+    <name>Employees</name>
 
     <description>
-        A simple employee directory application
+        Employees directory application
     </description>
 
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="https://github.com/narogg" email="gmandini@net.hr">
+        Goran M.
     </author>
-
+    
+	<gap:platform name="android" />
+    <gap:platform name="winphone" />
 </widget>
