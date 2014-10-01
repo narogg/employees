@@ -15,8 +15,12 @@
 
     <author href="https://github.com/narogg" email="gmandini@net.hr">
         Goran M.
-    </author>
-    
+    </author>    
+
+	<gap:plugin name="org.apache.cordova.contacts" />
+	<gap:plugin name="org.apache.cordova.camera" />
+	<icon src="icon.png" />
+	
 	<gap:platform name="android" />
     <gap:platform name="winphone" />
 </widget>
